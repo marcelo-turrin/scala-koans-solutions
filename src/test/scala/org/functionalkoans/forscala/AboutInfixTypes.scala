@@ -17,7 +17,7 @@ class AboutInfixTypes extends KoanSuite with ShouldMatchers {
 
     val romeo = new Person("Romeo")
     val juliet = new Person("Juliet")
-println( announceCouple(new Loves(romeo, juliet)))
+
     announceCouple(new Loves(romeo, juliet)) should be("Romeo is in love with Juliet")
   }
 
